@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "usernamemod",
+  "version": "${version}",
+  "name": "usernameMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/usernamemod/icon.png",
+  "environment": "*",
+  "accessWidener": "usernameMod.accesswidener",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.zane.usernamemod.client.UsernamemodDataGenerator"
+    ],
+    "client": [
+      "me.zane.usernamemod.client.UsernamemodClient"
+    ],
+    "main": [
+      "me.zane.usernamemod.Usernamemod"
+    ]
+  },
+  "mixins": [
+    "usernamemod.mixins.json",
+    {
+      "config": "usernamemod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

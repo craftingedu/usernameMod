@@ -1,0 +1,2 @@
+/gamemode c
+/gamemodec
