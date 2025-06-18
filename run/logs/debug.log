@@ -1555,3 +1555,5 @@ net.minecraft.client.realms.exception.RealmsServiceException: Realms authenticat
 [16:02:21] [Render thread/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [16:02:21] [Render thread/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
 [16:02:22] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 60, new limit 168.
+[16:03:20] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 168, new limit 360.
+[16:03:24] [Render thread/INFO] (net.minecraft.client.MinecraftClient) Stopping!
