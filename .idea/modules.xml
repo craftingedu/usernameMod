@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.client.iml" filepath="$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/me.zane.usernameMod.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usernameMod.client.iml" filepath="$PROJECT_DIR$/.idea/modules/usernameMod.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usernameMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/usernameMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usernameMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/usernameMod.test.iml" />
+    </modules>
+  </component>
+</project>
