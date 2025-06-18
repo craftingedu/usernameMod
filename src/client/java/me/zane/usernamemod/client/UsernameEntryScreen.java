@@ -58,7 +58,21 @@ public class UsernameEntryScreen extends Screen {
         context.drawCenteredTextWithShadow(this.textRenderer, this.title, this.width / 2, 20, 0xFFFFFF);
     }
 
-    
+    @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+        // If Enter is pressed while the text field is focused
+        if (this.usernameField.isFocused() && (keyCode == 257 || keyCode == 335)) {
+            String newUsername = usernameField.getText().trim();
+            if (!newUsername.isEmpty()) {
+                UsernameStorage.username = newUsername;
+                MinecraftClient.getInstance().setScreen(parent);
+            }
+            return true;
+        }
+
+        return super.keyPressed(keyCode, scanCode, modifiers);
+    }
+
 
     @Override
     public boolean shouldPause() {
