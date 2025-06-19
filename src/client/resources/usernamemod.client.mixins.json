@@ -4,7 +4,9 @@
   "package": "me.zane.usernamemod.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "ConnectScreenMixin",
+    "MinecraftClientAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
